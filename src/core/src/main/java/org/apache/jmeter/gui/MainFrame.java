@@ -13,6 +13,8 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ * 添加中文注释
+ * GUI主页面，平时打开jmeter看到的页面
  */
 
 package org.apache.jmeter.gui;
@@ -118,10 +120,10 @@ public class MainFrame extends JFrame implements TestStateListener, Remoteable, 
     // The name is chosen to be an unlikely host-name
     public static final String LOCAL = "*local*"; // $NON-NLS-1$
 
-    // The application name
+    // The application name 应用程序名称：Apache JMeter
     private static final String DEFAULT_APP_NAME = "Apache JMeter"; // $NON-NLS-1$
 
-    // The default title for the Menu bar
+    // The default title for the Menu bar 看到的用户GUI界面，最左上方标题栏：Apache JMeter（5.3）
     private static final String DEFAULT_TITLE = DEFAULT_APP_NAME +
             " (" + JMeterUtils.getJMeterVersion() + ")"; // $NON-NLS-1$ $NON-NLS-2$
 
@@ -138,7 +140,7 @@ public class MainFrame extends JFrame implements TestStateListener, Remoteable, 
                     .matcher(OS_NAME)
                     .find();
 
-    /** The menu bar. */
+    /** The menu bar. 菜单栏*/
     private JMeterMenuBar menuBar;
 
     /** The main panel where components display their GUIs. */
